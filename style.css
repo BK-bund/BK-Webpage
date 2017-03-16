@@ -26,6 +26,7 @@ Version:      3.1.1
   background-color: #acbad5;
 }
 
+
 /********************/
 /******* Home *******/
 /********************/
@@ -158,7 +159,6 @@ img.home-logo-rappoltengruen {
 /***** Ueber Uns ****/
 /********************/
 
-
 .logo-weidenkirche-offen {
   max-width: 300px;
   width: 100%;
@@ -189,6 +189,7 @@ img.home-logo-rappoltengruen {
 /********************/
 /***** Projekte *****/
 /********************/
+
 .bgimage-baekewiese {
   background-image: url("/wp-content/uploads/2016/04/10_Baekewiese.jpg");
   padding-bottom: 39%;
@@ -204,4 +205,12 @@ img.home-logo-rappoltengruen {
   padding-bottom: 40%;
   margin-bottom: -15px;
 }
-  
+
+
+/********************/
+/******* Footer *****/
+/********************/
+
+#datenschutz-collape .well {
+  background-color: #d5dcea;
+}
