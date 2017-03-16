@@ -1,0 +1,207 @@
+/*
+Theme Name:   BK kaakeli
+Theme URI:    https://github.com/BK-bund/BK-Webpage
+Description:  A theme for the BK Webpage based on kaakeli
+Author:       Ben Schumacher
+Author URI:   https://github.com/BenSchumacher-cjf
+Template:     kaakeli
+License:      Apache License
+License URI:  https://www.apache.org/licenses/
+Version:      3.1.1
+*/
+
+@media (max-width: 767px) {
+  .navbar-default .navbar-nav li.active {
+    background-color: #acbad5;
+  }
+}
+
+.btn-wiese {
+  color: #fff;
+  background-color: #8ace00;
+  border-color: #8ace00;
+}
+
+.btn-home {
+  background-color: #acbad5;
+}
+
+/********************/
+/******* Home *******/
+/********************/
+
+.thumbnail-bk {
+  padding: 10px 5px;
+  border: none;
+}
+
+.thumbnail-bk:hover {
+  background-color: #e1e1e1;
+}
+
+.thumbnail-bk > img {
+  width: 200px;
+  border: 1px solid #999999;
+}
+
+.thumbnail-bk>.caption {
+  max-width: 100%;
+  width: 200px;
+  padding: 12px 0;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.thumbnail-bk>.caption>small::after {
+  content: url('/wp-content/themes/bk_kaakeli/img/glyph_download.svg');
+  float: right !important;
+  max-width: 100%;
+}
+
+.home-bk-thumb {
+  margin: auto;
+  max-width: 100%;
+  max-height: 81%;
+  border: 1px solid #999999;
+}
+
+div.home-logo-wrapper {
+  position: relative;
+  margin: auto;
+  width: 300px;
+  display: inline-block;
+}
+
+div.home-logo-img-wrapper {
+  float: left;
+  width: 40%;
+}
+
+img.home-logo {
+  height: auto;
+  margin: auto;
+}
+
+img.home-logo-baekewiese {
+  width: 98px;
+}
+
+img.home-logo-weidenkirche {
+  width: 106px;
+}
+
+img.home-logo-rappoltengruen {
+  width: 109px;
+}
+
+.logo-caption {
+  font-size: 25px;
+  font-family: quadraat-regular;
+  margin: 0;
+  float:left;
+  position: absolute;
+  top: 35%;
+  left: 43%;
+}
+
+.karten-wrapper-breit > .karten-wrapper-inner {
+  margin: 0;
+}
+
+.karten-wrapper-breit > .karten-wrapper-inner > div {
+  height: 100%;
+}
+
+#BK_Berlinde {
+  border: 1px solid #999999;
+  height: 468px;
+  width: 100%;
+}
+
+.gm-style-iw * {
+    display: block;
+    width: auto;
+}
+
+.gm-style-iw h4, .gm-style-iw p {
+    margin: 0;
+    padding: 0;
+}
+
+.gm-style-iw a {
+    color: #4272db;
+}
+
+@media (max-width: 767px) {
+  .row>.karten-container:nth-child(even) {
+    background-color: #d9d9d9;
+  }
+  
+  .row>.karten-container:nth-child(odd)>.reiter-wrapper-home>.reiter-weis {
+    border-bottom: 30px solid #d9d9d9; 
+  }
+
+  .row>.karten-container:nth-child(odd)>.reiter-wrapper-home>.reiter-weis > * {
+    background-color: #d9d9d9;
+  }
+
+  .row>.karten-container:nth-child(odd)>.karten-wrapper {
+    background-color: #d9d9d9;
+  }
+  
+  #BK_Berlinde {
+    max-height: 450px;
+  }
+}
+
+/********************/
+/***** Ueber Uns ****/
+/********************/
+
+
+.logo-weidenkirche-offen {
+  max-width: 300px;
+  width: 100%;
+}
+
+.bgimage-evangelische-schuelerarbeit {
+  background-image: url("/wp-content/uploads/2016/04/20_Die-Ev-Schuelerarbeit.png");
+  padding-bottom: 40%;
+  margin-bottom: 30px;
+}
+
+.bgimage-anliegen {
+  background-image: url("/wp-content/uploads/2016/04/20_Anliegen.png");
+  padding-top: 34%;
+  background-position: left top;
+}
+
+.bgimage-historie {
+  background-color: #cccccc;
+}
+
+.bildunterschrift {
+  margin: 0 0 50px 0;
+  padding-left: 25px;
+}
+
+
+/********************/
+/***** Projekte *****/
+/********************/
+.bgimage-baekewiese {
+  background-image: url("/wp-content/uploads/2016/04/10_Baekewiese.jpg");
+  padding-bottom: 39%;
+}
+
+.bgimage-weidenkirche {
+  background-image: url("/wp-content/uploads/2016/04/10_Weidenkirche.jpg");
+  padding-bottom: 43%;
+}
+
+.bgimage-rappoltengruen {
+  background-image: url("/wp-content/uploads/2016/04/10_Rappoltengruen.jpg");
+  padding-bottom: 40%;
+  margin-bottom: -15px;
+}
+  
