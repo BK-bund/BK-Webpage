@@ -137,9 +137,9 @@ img.home-logo-rappoltengruen {
   .row>.karten-container:nth-child(even) {
     background-color: #d9d9d9;
   }
-  
+
   .row>.karten-container:nth-child(odd)>.reiter-wrapper-home>.reiter-weis {
-    border-bottom: 30px solid #d9d9d9; 
+    border-bottom: 30px solid #d9d9d9;
   }
 
   .row>.karten-container:nth-child(odd)>.reiter-wrapper-home>.reiter-weis > * {
@@ -149,7 +149,7 @@ img.home-logo-rappoltengruen {
   .row>.karten-container:nth-child(odd)>.karten-wrapper {
     background-color: #d9d9d9;
   }
-  
+
   #BK_Berlinde {
     max-height: 450px;
   }
@@ -210,7 +210,3 @@ img.home-logo-rappoltengruen {
 /********************/
 /******* Footer *****/
 /********************/
-
-#datenschutz-collape .well {
-  background-color: #d5dcea;
-}
