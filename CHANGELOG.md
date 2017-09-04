@@ -1,7 +1,7 @@
 # Changelog
 
 ## 3.2
-- Adde piwik
+- Added piwik footer
 
 ## 3.1
 - Moved mosted designelements to [kaakelii](https://github.com/BK-bund/kaakeli)
