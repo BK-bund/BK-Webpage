@@ -7,7 +7,7 @@ Author URI:   https://github.com/BenSchumacher-cjf
 Template:     kaakeli
 License:      Apache License
 License URI:  https://www.apache.org/licenses/
-Version:      3.2.0
+Version:      3.3.0
 */
 
 @media (max-width: 767px) {
@@ -211,3 +211,18 @@ img.home-logo-rappoltengruen {
 /********************/
 /******* Footer *****/
 /********************/
+.reiter-footer {
+  border-bottom-color: #8892a5 !important;
+}
+
+.reiter-footer > *, .reiter-footer > *:hover, .reiter-footer > *:focus {
+  background-color: #8892a5 !important;
+}
+
+.reiter-wrapper .active {
+  border-bottom-color: #acbad5 !important;
+}
+
+.reiter-wrapper .active > * {
+  background-color: #acbad5 !important;
+}

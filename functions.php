@@ -1,7 +1,7 @@
 <?php
 
 function enqueue_bk_kaakeli_style() {
-  wp_enqueue_style( 'bk_kaakeli', get_stylesheet_directory_uri().'/style.css', array('kaakeli'), '3.2', 'all' );
+  wp_enqueue_style( 'bk_kaakeli', get_stylesheet_directory_uri().'/style.css', array('kaakeli'), '3.3.0', 'all' );
 }
 add_action( 'wp_enqueue_scripts', 'enqueue_bk_kaakeli_style' );
 

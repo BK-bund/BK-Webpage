@@ -1,5 +1,9 @@
 # Changelog
 
+## 3.3
+- Bump kaakeli to 1.1.1
+- Add imprint
+
 ## 3.2
 - Added piwik footer
 
